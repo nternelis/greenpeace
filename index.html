@@ -1,0 +1,507 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+<title>Title</title>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" media="screen, handheld, projection, tv">
+
+<script src="https://use.fontawesome.com/750453bf05.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<header>	
+			<h1>Welcome to our worderfull quiz!</h1>
+			<h2>Answer the questions below to find out what kind of Lorem Ipsum you are</h2>
+	</header>
+	<main>
+		<dl class="questions">		
+			<dt class="question anim-elm">Choose an image:</dt>
+			<dd class="answer anim-elm">
+				<ul class="images">
+					<li data-category="1">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Lorem ipsum dolor sit amet</span>
+						</div>
+					</li>
+					<li data-category="2">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+
+					</li>
+					<li data-category="3">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+					</li>
+					<li data-category="4">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Donec ut molestie nisi</span>
+						</div>
+					</li>
+					<li data-category="5">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Nulla eu purus turpis</span>
+						</div>
+					</li>
+					<li data-category="6">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Cras ultricies pharetra mi</span>
+						</div>
+					</li>
+				</ul>
+			</dd>
+			<dt class="question anim-elm">Choose another image:</dt>
+			<dd class="answer anim-elm">
+				<ul class="images">
+					<li data-category="1">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Lorem ipsum dolor sit amet</span>
+						</div>
+					</li>
+					<li data-category="2">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+
+					</li>
+					<li data-category="3">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+					</li>
+					<li data-category="4">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Donec ut molestie nisi</span>
+						</div>
+					</li>
+					<li data-category="5">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Nulla eu purus turpis</span>
+						</div>
+					</li>
+					<li data-category="6">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Cras ultricies pharetra mi</span>
+						</div>
+					</li>
+				</ul>
+			</dd>
+			<dt class="question anim-elm">Now Choose an answer:</dt>
+			<dd class="answer anim-elm">
+				<ul class="no-images">
+					<li data-category="1">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Lorem ipsum dolor sit amet</span>
+						</div>
+					</li>
+					<li data-category="2">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+
+					</li>
+					<li data-category="3">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+					</li>
+					<li data-category="4">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Donec ut molestie nisi</span>
+						</div>
+					</li>
+					<li data-category="5">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Nulla eu purus turpis</span>
+						</div>
+					</li>
+					<li data-category="6">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Cras ultricies pharetra mi</span>
+						</div>
+					</li>
+				</ul>
+			</dd>
+			<dt class="question anim-elm">Choose another image:</dt>
+			<dd class="answer anim-elm">
+				<ul class="images">
+					<li data-category="1">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Lorem ipsum dolor sit amet</span>
+						</div>
+					</li>
+					<li data-category="2">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+
+					</li>
+					<li data-category="3">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+					</li>
+					<li data-category="4">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Donec ut molestie nisi</span>
+						</div>
+					</li>
+					<li data-category="5">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Nulla eu purus turpis</span>
+						</div>
+					</li>
+					<li data-category="6">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Cras ultricies pharetra mi</span>
+						</div>
+					</li>
+				</ul>
+			</dd>
+			<dt class="question anim-elm">Choose another image:</dt>
+			<dd class="answer anim-elm">
+				<ul class="images">
+					<li data-category="1">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Lorem ipsum dolor sit amet</span>
+						</div>
+					</li>
+					<li data-category="2">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+
+					</li>
+					<li data-category="3">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+					</li>
+					<li data-category="4">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Donec ut molestie nisi</span>
+						</div>
+					</li>
+					<li data-category="5">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Nulla eu purus turpis</span>
+						</div>
+					</li>
+					<li data-category="6">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Cras ultricies pharetra mi</span>
+						</div>
+					</li>
+				</ul>
+			</dd>
+			<dt class="question anim-elm">Choose another image:</dt>
+			<dd class="answer anim-elm">
+				<ul class="images">
+					<li data-category="1">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Lorem ipsum dolor sit amet</span>
+						</div>
+					</li>
+					<li data-category="2">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+
+					</li>
+					<li data-category="3">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+					</li>
+					<li data-category="4">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Donec ut molestie nisi</span>
+						</div>
+					</li>
+					<li data-category="5">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Nulla eu purus turpis</span>
+						</div>
+					</li>
+					<li data-category="6">
+						<figure>
+							<img src="http://placehold.it/220x220">
+							<figcaption>Image credit</figcaption>
+						</figure>
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Cras ultricies pharetra mi</span>
+						</div>
+					</li>
+				</ul>
+			</dd>
+			<dt class="question anim-elm">Now Choose an answer:</dt>
+			<dd class="answer anim-elm">
+				<ul class="no-images">
+					<li data-category="1">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Lorem ipsum dolor sit amet</span>
+						</div>
+					</li>
+					<li data-category="2">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+
+					</li>
+					<li data-category="3">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Mauris turpis arcu</span>
+						</div>
+					</li>
+					<li data-category="4">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Donec ut molestie nisi</span>
+						</div>
+					</li>
+					<li data-category="5">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Nulla eu purus turpis</span>
+						</div>
+					</li>
+					<li data-category="6">
+						<div class="textbox">
+							<span class="check"></span>
+							<span class="text">Cras ultricies pharetra mi</span>
+						</div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+		
+		<div class="results">
+			<div class="result anim-elm" data-result="1">
+				<h3>What kind of Lorem Ipsum are you? </h3>
+				<h4>You are: Category 1 Lorem Ipsum</h4>
+				<figure>
+					<img src="http://placehold.it/300x200">
+					<figcaption>Image credit</figcaption>
+				</figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a purus ac purus fermentum interdum eu quis arcu. Mauris eget rutrum arcu. Suspendisse pharetra, neque quis feugiat rutrum, diam massa efficitur lectus, vitae tempus ipsum arcu ac turpis. Sed porta consequat elit, eu tristique metus pellentesque eu. Donec dui massa, interdum eu tristique vel, dignissim ut enim. Phasellus vitae semper arcu, quis varius nisi. Quisque sit amet mollis ligula. Quisque mi sem, imperdiet nec rutrum sit amet, fringilla eu magna. Donec vestibulum pharetra placerat. Vivamus laoreet blandit interdum. Sed accumsan egestas mi, a faucibus orci ultricies ut. Nunc ac nunc vel diam lobortis euismod id non leo.</p>
+			</div>
+			<div class="result anim-elm" data-result="2">
+				<h3>What kind of Lorem Ipsum are you? </h3>
+				<h4>You are: Category 2 Lorem Ipsum</h4>
+				<figure>
+					<img src="http://placehold.it/300x200">
+					<figcaption>Image credit</figcaption>
+				</figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a purus ac purus fermentum interdum eu quis arcu. Mauris eget rutrum arcu. Suspendisse pharetra, neque quis feugiat rutrum, diam massa efficitur lectus, vitae tempus ipsum arcu ac turpis. Sed porta consequat elit, eu tristique metus pellentesque eu. Donec dui massa, interdum eu tristique vel, dignissim ut enim. Phasellus vitae semper arcu, quis varius nisi. Quisque sit amet mollis ligula. Quisque mi sem, imperdiet nec rutrum sit amet, fringilla eu magna. Donec vestibulum pharetra placerat. Vivamus laoreet blandit interdum. Sed accumsan egestas mi, a faucibus orci ultricies ut. Nunc ac nunc vel diam lobortis euismod id non leo.</p>
+			</div>
+
+			<div class="result anim-elm" data-result="3">
+				<h3>What kind of Lorem Ipsum are you? </h3>
+				<h4>You are: Category 3 Lorem Ipsum</h4>
+				<figure>
+					<img src="http://placehold.it/300x200">
+					<figcaption>Image credit</figcaption>
+				</figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a purus ac purus fermentum interdum eu quis arcu. Mauris eget rutrum arcu. Suspendisse pharetra, neque quis feugiat rutrum, diam massa efficitur lectus, vitae tempus ipsum arcu ac turpis. Sed porta consequat elit, eu tristique metus pellentesque eu. Donec dui massa, interdum eu tristique vel, dignissim ut enim. Phasellus vitae semper arcu, quis varius nisi. Quisque sit amet mollis ligula. Quisque mi sem, imperdiet nec rutrum sit amet, fringilla eu magna. Donec vestibulum pharetra placerat. Vivamus laoreet blandit interdum. Sed accumsan egestas mi, a faucibus orci ultricies ut. Nunc ac nunc vel diam lobortis euismod id non leo.</p>
+			</div>
+
+			<div class="result anim-elm" data-result="4">
+				<h3>What kind of Lorem Ipsum are you? </h3>
+				<h4>You are: Category 4 Lorem Ipsum</h4>
+				<figure>
+					<img src="http://placehold.it/300x200">
+					<figcaption>Image credit</figcaption>
+				</figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a purus ac purus fermentum interdum eu quis arcu. Mauris eget rutrum arcu. Suspendisse pharetra, neque quis feugiat rutrum, diam massa efficitur lectus, vitae tempus ipsum arcu ac turpis. Sed porta consequat elit, eu tristique metus pellentesque eu. Donec dui massa, interdum eu tristique vel, dignissim ut enim. Phasellus vitae semper arcu, quis varius nisi. Quisque sit amet mollis ligula. Quisque mi sem, imperdiet nec rutrum sit amet, fringilla eu magna. Donec vestibulum pharetra placerat. Vivamus laoreet blandit interdum. Sed accumsan egestas mi, a faucibus orci ultricies ut. Nunc ac nunc vel diam lobortis euismod id non leo.</p>
+			</div>
+
+			<div class="result anim-elm" data-result="5">
+				<h3>What kind of Lorem Ipsum are you? </h3>
+				<h4>You are: Category 5 Lorem Ipsum</h4>
+				<figure>
+					<img src="http://placehold.it/300x200">
+					<figcaption>Image credit</figcaption>
+				</figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a purus ac purus fermentum interdum eu quis arcu. Mauris eget rutrum arcu. Suspendisse pharetra, neque quis feugiat rutrum, diam massa efficitur lectus, vitae tempus ipsum arcu ac turpis. Sed porta consequat elit, eu tristique metus pellentesque eu. Donec dui massa, interdum eu tristique vel, dignissim ut enim. Phasellus vitae semper arcu, quis varius nisi. Quisque sit amet mollis ligula. Quisque mi sem, imperdiet nec rutrum sit amet, fringilla eu magna. Donec vestibulum pharetra placerat. Vivamus laoreet blandit interdum. Sed accumsan egestas mi, a faucibus orci ultricies ut. Nunc ac nunc vel diam lobortis euismod id non leo.</p>
+			</div>
+
+			<div class="result anim-elm" data-result="6">
+				<h3>What kind of Lorem Ipsum are you? </h3>
+				<h4>You are: Category 6 Lorem Ipsum</h4>
+				<figure>
+					<img src="http://placehold.it/300x200">
+					<figcaption>Image credit</figcaption>
+				</figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a purus ac purus fermentum interdum eu quis arcu. Mauris eget rutrum arcu. Suspendisse pharetra, neque quis feugiat rutrum, diam massa efficitur lectus, vitae tempus ipsum arcu ac turpis. Sed porta consequat elit, eu tristique metus pellentesque eu. Donec dui massa, interdum eu tristique vel, dignissim ut enim. Phasellus vitae semper arcu, quis varius nisi. Quisque sit amet mollis ligula. Quisque mi sem, imperdiet nec rutrum sit amet, fringilla eu magna. Donec vestibulum pharetra placerat. Vivamus laoreet blandit interdum. Sed accumsan egestas mi, a faucibus orci ultricies ut. Nunc ac nunc vel diam lobortis euismod id non leo.</p>
+			</div>
+
+		</div>
+		<div class="loader"><img src="default.gif"></div>
+	</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* Large desktop */
+@media (max-width: 1200px) {  }
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 1024px) {  
+	dl .answer {
+		padding-left: 135px;
+	}
+	dl .answer .images li {
+		margin-bottom: 15px;
+	}
+	dl .answer {
+		
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	dl .question {
+		padding-left: 70px;
+	}
+	dl .question:before {
+		font-size: 60px;
+		left: 0;
+	}
+	dl .answer {
+		padding-left: 55px;
+		margin-bottom: 10px;
+	}
+	.result figure {
+		float: left;
+		padding: 0 0 20px;
+		clear: both;
+	}
+	.result p {
+		float: left;
+	}
+	.result figcaption {
+		left: 0;
+		bottom: 20px;
+		width: 100%;
+	}
+ }
+
+/* Landscape phones and down */
+@media (max-width: 639px) {  
+	dl .answer .images li {
+		width: 50%;
+		margin-right: -2px;
+		margin-bottom: 0;
+	}
+	dl .answer .no-images li:before {
+		left: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	dl .question {
+		padding-left: 60px;
+		font-size: 16px;
+	}
+	dl .answer .no-images li {
+		font-size: 16px;
+	}
+	dl .question:before {
+		font-size: 50px;
+		left: 0;
+	}
+	dl .answer {
+		padding-left: 0;
+	}
+	dl .answer .images li {
+		padding: 10px
+	}
+	.wrapper {
+		padding: 40px 20px;
+	}
+	.result {
+		padding: 20px;
+	}
+}
